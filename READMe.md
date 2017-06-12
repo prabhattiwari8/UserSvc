@@ -34,7 +34,7 @@ Run command to build and refresh dependencies from UserSvc home directory
 
 Run
 ---
-Run below command to run usersvc
+Run below command to run UserSvc
 ```java -jar build/libs/UserSvc-0.0.1-SNAPSHOT.jar```
 
 Test Input
@@ -50,4 +50,5 @@ JSON for create user (URL : ```http://localhost:8080/user/``` POST Mapping)
      "gender": "M",
      "phone": "1234567890",
      "zip": 0
-   }```
+   }
+```
