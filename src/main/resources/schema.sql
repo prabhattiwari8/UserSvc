@@ -1,0 +1,10 @@
+CREATE TABLE USER (
+   uuid VARCHAR(50) NOT NULL PRIMARY KEY,
+   first_name VARCHAR(50) NOT NULL,
+   middle_name VARCHAR(20),
+   last_name VARCHAR(50) NOT NULL,
+   age INTEGER NOT NULL,
+   gender VARCHAR(1) NOT NULL,
+   phone INTEGER NOT NULL,
+   zip INTEGER
+);
